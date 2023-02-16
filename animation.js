@@ -4,11 +4,11 @@
 var index = 1;
 function RunImage() {
   var imgs = [
-    "./media/img/contact.jpg",
-    "./media/img/compétance.jpg",
-    "./media/img/travail.jpg",
-    "./media/img/examen.png",
-    "./media/img/hobbies.jpg"
+    "contact.jpg",
+    "compétance.jpg",
+    "travail.jpg",
+    "examen.png",
+    "hobbies.jpg"
   ];
   document.getElementById("img").src = imgs[index];
   index++;
@@ -23,7 +23,7 @@ setInterval(RunImage, 6000);
 
 var index = 1;
 function changeImage() {
-  var imgs = [ "./media/img/contact.jpg",  "./media/img/compétance.jpg",  "./media/img/travail.jpg", "./media/img/examen.png", "./media/img/hobbies.jpg"];
+  var imgs = [ "contact.jpg",  "compétance.jpg",  "travail.jpg", "examen.png", "hobbies.jpg"];
   
   document.getElementById("img").src = imgs[index];
   index++;
