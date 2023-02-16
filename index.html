@@ -1,34 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>LE Minh Canh</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="./projet_style.css" rel="stylesheet" type="text/css">
-
+  <meta charset="utf-8">
+  <title>MyCV</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="animation.js"></script>
 </head>
+
 <body>
-  <h1>LE Minh Canh</h1>
-  <p>Developer full-stack</p>
-  <details>
-    <summary>Minh Canh LE</summary>
-    Projet : ingénieur infrastructures informatiques.
-  </details>
-  <h2>Menu</h2>
-  <div id = "content">
-    <img class ="img_1" src="./menu1.jpg" alt = " img_plat 1">
-   </div> 
-   
-  <p><a href="menu.html">Cliquez ici pour accéder à mes compétences.</a></p>
-  <h2>Contact</h2>
-  <p><strong>13 rue de Winston Churchill , 60200 Compiègne</strong></p>
-  <img class ="img_res" src="./img/elise.jpg" alt = " img de restaurant">
-  
-  <p><a href="contact.html">Cliquez ici pour accéder aux informations de contact</a></p>
-  
+  <header>
+    <div class="headLeft">
+      <h1>LE Minh Canh</h1>
+      <h3>Project: Developer full-stack</h3>
+    </div>
+    <img src="./media/img/M.C.LE.jpg" />
+  </header>
+  <nav>
+    <a class="nav" href="index.html">Accueil</a>
+    <a class="nav" href="experience.html">Expériences</a>
+    <a class="nav" href="Skills.html">Compétances</a>
+    <a class="nav" href="Formation.html">Formations</a>
+    <a class="nav" href="contact.html">Contact</a>
+    <a class="nav" href="hobby.html">Hobby</a>
+  </nav>
+  <div id="main-container">
+    <main id="container">
+      <section id="description">
+        <img id="img" onclick="changeImage()" src="./media/img/contact.jpg" alt="contact">
+      </section>
+      <section id="dish">
+        <a class="nav" href="contact.html">
+          <img class="img_contact" src="./media/img/contact.jpg" name="contact" onmouseover="mouseOver()"
+            onmouseout="mouseOut()" /></a>
+
+        <a class="nav" href="Skills.html">
+          <img class="img_skills" src="./media/img/compétance.jpg" name="skills" /></a>
+
+        <a class="nav" href="Formation.html">
+          <img class="img_former" src="./media/img/examen.png" name="former" onmouseover="mouseOver()"
+            onmouseout="mouseOut()" /></a>
+
+        <a class="nav" href="experience.html">
+          <img class="img_experience" src="./media/img/travail.jpg" name="experience" onmouseover="mouseOver()"
+            onmouseout="mouseOut()" /></a>
+        <a class="nav" href="hobby.html">
+          <img class="img_hobby" src="./media/img/hobbies.jpg" name="hobby" onmouseover="mouseOver()"
+            onmouseout="mouseOut()" /></a>
+      </section>
+    </main>
+    <aside>
+      <h3>Résumé</h3>
+      <section>
+        <p><em>Mon nom est LE, et mon prénom est Minh Canh, j’ai 44 ans.</em></p>
+        <p>Je suis marié et nous avons deux enfants, j’habite à Compiègne.
+          J'ai obtenu mon diplôme à l’école de Polytechnique de Danang en 2004 au Vietnam,
+          J'ai plus de 10 ans d'expérience en tant qu'ingénieur en conception de structures,
+          responsable adjoint de projet de travaux dans plusieurs entreprises au Vietnam.</p>
+        <p>Je suis à la recherche d'un emploi ou d'une candidature pour un stage.
+          Je suis arrivé en France puis 12/2018, J'ai suivi deux formations sur développeur web et application mobiles.
+          Grâce à ces formations, j'ai ajouté des compétences importantes.
+          Elle me permet de pouvoir poursuivre étude et travail en tant que développeur que j’aime</p>
+      </section>
+      <section>
+        <h2>abc</h2>
+        <p>abc</p>
+        <p>123</p>
+      </section>
+    </aside>
+  </div>
 
 
-  </body>
- 
- </html>
+  <footer>
+    LeminhCanh&copy;, depuis 2023,<br />
+    60200, Compiègne, France
+  </footer>
+</body>
+
+</html>
+
 
