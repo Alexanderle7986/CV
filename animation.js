@@ -32,4 +32,4 @@ function changeImage() {
     
   }
 }
-setInterval(changeImage, 6000);
+setInterval(changeImage, 4000);
